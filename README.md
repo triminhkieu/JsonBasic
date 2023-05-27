@@ -9,7 +9,8 @@ STEPS:
  - 8: Run file .json above: "json-server --watch products.json"
 	+ Tips:
 		- Add one line code in package.json in script: "start": "json-server --watch products.json",
-		-> Now, to run file .json above: "npm start"
+		-> Now, to run file .json above: "npm start"  
+		
 Guide Postman:
  - GET: get value, show value
  - POST: create new value
@@ -17,11 +18,13 @@ Guide Postman:
  - DELETE: delete old value
 	+ Params
  - PUT: change value
-	+ Body -> x-www-form-urlencoded -> key
+	+ Body -> x-www-form-urlencoded -> key  
+	
 Create variable:
  - Project -> Edit -> Variables
 	+ How to use that variables: "{{var}}
  - beside:
-	+ Create global variable: [Evironment quick look]
+	+ Create global variable: [Evironment quick look]  
+	
 Tests:
  - Eg: console.log('gia tri bien', pm.variables.get("demo_url"));
